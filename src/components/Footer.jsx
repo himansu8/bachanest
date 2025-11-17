@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { HiUsers } from "react-icons/hi";
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import bachanest from '../assets/bachanest4.png'; // Example image import
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -14,10 +15,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
-                <HiUsers className="w-6 h-6 text-white" />
-              </div>
-              <span className="text-xl font-bold">FamilyGuard</span>
+              <img src={bachanest} alt="FamilyGuard Logo" className=" w-40" />
             </div>
             <p className="text-sm text-background/70 leading-relaxed">
               Your trusted digital family guardian. Keeping families safe, connected, and thriving in the modern world.
