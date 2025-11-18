@@ -5,14 +5,14 @@ const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center bg-white py-16">
       <div className="container mx-auto px-4 text-center">
-        <h1 className="text-5xl lg:text-7xl font-bold text-[#192F4A] mb-6 leading-tight animate-fade-in-up">
+        <h1 className="text-7xl lg:text-[60px] font-poppins font-bold text-[#1E3B4B] mb-6 leading-tight animate-fade-in-up">
           Smart Parenting. Safe Kids. 
           <br />
           Your Digital Family Guardian.
         </h1>
-        <p className="text-xl text-gray-600 mb-8 leading-relaxed max-w-2xl mx-auto animate-fade-in-up animation-delay-500">
+        <p className="text-xl text-gray-600 font-inter mb-8 leading-relaxed max-w-4xl mx-auto animate-fade-in-up animation-delay-500">
           Empower your family with intelligent monitoring tools that keep your kids safe online while fostering trust and open communication. 
-          <br />
+          
           Real-time insights, customizable alerts, and family-friendly features—all in one secure app.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up animation-delay-1000">

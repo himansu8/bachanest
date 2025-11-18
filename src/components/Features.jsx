@@ -24,23 +24,23 @@ const Features = () => {
   ];
 
   return (
-    <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section id="features" className=" px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
+          {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
             <span>Discover Our Core Features</span>
-          </div>
+          </div> */}
 
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            <span className="text-[#192F4A] font-poppins text-[50px]">
               Powerful Features
             </span>
             <br />
-            <span className="text-foreground">for Modern Families</span>
+            {/* <span className="text-foreground">for Modern Families</span> */}
           </h2>
 
-          <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="mt-4 text-sm sm:text-xl text-muted-foreground max-w-4xl mx-auto">
             Everything you need to keep your family safe, connected, and thriving in the digital age.
           </p>
         </div>
@@ -50,18 +50,19 @@ const Features = () => {
           {features.map(({ Icon, title, description }, idx) => (
             <div
               key={idx}
-              className="group bg-white rounded-xl p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              className="group bg-white rounded-xl p-6 transition-all duration-300 hover:shadow-xl border border-[#E89A38] hover:-translate-y-1"
               style={{ animationDelay: `${idx * 0.1}s` }}
             >
               {/* Icon */}
-              <div className="mb-5 flex items-center justify-center w-14 h-14 rounded-lg bg-gradient-to-br from-primary to-secondary text-white shadow-md group-hover:scale-110 transition-transform duration-300">
+              <div className="mb-5 flex items-center justify-center w-14 h-14 rounded-lg  text-white shadow-md group-hover:scale-110 transition-transform duration-300"
+              style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}>
                 <Icon className="w-7 h-7" />
               </div>
 
-              <h3 className="text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors duration-300">
+              <h3 className="text-lg font-semibold font-poppins text-foreground mb-2 group-hover:text-[#E89A38] transition-colors duration-300">
                 {title}
               </h3>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+              <p className="text-base font-inter text-justify leading-relaxed">
                 {description}
               </p>
             </div>

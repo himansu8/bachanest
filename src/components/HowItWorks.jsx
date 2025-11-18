@@ -1,4 +1,4 @@
-/* HowItWorks.jsx – Professional + Attractive */
+/* HowItWorks.jsx – Adjusted text sizes and colors to match Features */
 import React from 'react';
 import {
   HiOutlineDeviceMobile,
@@ -30,15 +30,15 @@ const HowItWorks = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-20">
-          <h2 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight">
-            <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent animate-shimmer">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <span className="text-[#192F4A] font-poppins text-[50px]">
               How It Works
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Three powerful steps to keep your family <span className="text-primary font-medium">safe</span>,{' '}
-            <span className="text-secondary font-medium">connected</span>, and{' '}
-            <span className="text-primary font-medium">thriving</span>.
+          <p className="mt-4 text-sm sm:text-xl text-muted-foreground max-w-4xl mx-auto">
+            Three powerful steps to keep your family <span className="text-[#E89A38] font-medium">safe</span>,{' '}
+            <span className="text-[#E89A38] font-medium">connected</span>, and{' '}
+            <span className="text-[#E89A38] font-medium">thriving</span>.
           </p>
         </div>
 
@@ -46,8 +46,10 @@ const HowItWorks = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 relative">
           {/* Desktop Connection Line */}
           <div className="hidden md:block absolute top-24 left-0 right-0 h-1 pointer-events-none">
-            <div className="h-full bg-gradient-to-r from-transparent via-primary/20 to-transparent" />
-            <div className="absolute inset-0 h-full bg-gradient-to-r from-primary to-secondary w-0 animate-expand-line" />
+            <div className="h-full  via-primary/20 to-transparent" 
+            style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}
+            />
+            <div className="absolute inset-0 h-full bg-gradient-to-r from-primary to-secondary w-0 animate-expand-line" style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}/>
           </div>
 
           {steps.map((step, idx) => (
@@ -56,29 +58,30 @@ const HowItWorks = () => {
               className="group relative bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 hover:-translate-y-3"
             >
               {/* Step Number (Animated Reveal) */}
-              <div className="absolute -top-5 -left-5 w-14 h-14 rounded-full bg-white shadow-xl flex items-center justify-center text-2xl font-bold text-primary border-4 border-white z-10 animate-reveal-number">
+              <div className="absolute -top-5 -left-5 w-14 h-14 rounded-full bg-white shadow-xl flex items-center justify-center text-xl font-bold text-[#E89A38] border-4 border-white z-10 animate-reveal-number">
                 {'0' + (idx + 1)}
               </div>
 
               {/* Icon with Gradient Background */}
-              <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary/10 via-secondary/10 to-primary/10 p-1 group-hover:from-primary/20 group-hover:to-secondary/20 transition-all duration-300">
-                <div className="w-full h-full rounded-xl bg-white flex items-center justify-center text-primary group-hover:scale-110 transition-transform duration-300">
+              <div className="w-20 h-20 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 group-hover:from-[#E89A38]/20 group-hover:to-[#E89A38]/30 transition-all duration-300">
+                <div className="w-full h-full rounded-xl bg-white flex items-center justify-center text-[#E89A38] group-hover:scale-110 transition-transform duration-300">
                   <step.Icon className="w-10 h-10" />
                 </div>
               </div>
 
               {/* Title */}
-              <h3 className="text-2xl font-bold text-center mb-4 text-foreground group-hover:text-primary transition-colors duration-300">
+              <h3 className="text-xl font-poppins font-semibold text-center mb-4 text-foreground group-hover:text-[#E89A38] transition-colors duration-300">
                 {step.title}
               </h3>
 
               {/* Description */}
-              <p className="text-base text-muted-foreground text-center leading-relaxed">
+              <p className="text-base font-inter text-muted-foreground text-center leading-relaxed">
                 {step.description}
               </p>
 
               {/* Bottom Gradient Bar */}
-              <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-gradient-to-r from-primary to-secondary rounded-b-2xl scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
+              <div className="absolute bottom-0 left-0 right-0 h-1.5  rounded-b-2xl scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"
+              style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }} />
             </div>
           ))}
         </div>

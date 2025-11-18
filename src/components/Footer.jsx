@@ -72,7 +72,7 @@ const Footer = () => {
             <p className="text-sm text-background/70 mb-4">
               Download FamilyGuard today and experience safer digital parenting.
             </p>
-            <button className="w-full px-6 py-3 bg-gradient-primary text-white rounded-full font-medium hover:shadow-glow transition-all duration-300 hover:scale-105">
+            <button className="w-full px-6 py-3  text-white rounded-full font-medium hover:shadow-glow transition-all duration-300 hover:scale-105" style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}>
               Download App
             </button>
           </div>

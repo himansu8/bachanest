@@ -1,4 +1,4 @@
-/* About.jsx – Real react-icons (no emojis) */
+/* About.jsx – Updated to match orange accent styling */
 import {
   HiShieldCheck,
   HiGlobe,
@@ -19,11 +19,11 @@ const About = () => {
           {/* Left Content */}
           <div className="animate-fade-in">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              <span className="text-[#192F4A] font-poppins text-[50px]">
                 About FamilyGuard
               </span>
             </h2>
-            <div className="space-y-4 text-lg text-muted-foreground leading-relaxed">
+            <div className="space-y-4 font-inter text-justify text-lg text-muted-foreground leading-relaxed">
               <p>
                 FamilyGuard is more than just an app—it's a comprehensive digital ecosystem designed to empower parents 
                 and protect children in today's connected world.
@@ -48,8 +48,10 @@ const About = () => {
             {/* Key Points */}
             <div className="mt-8 grid grid-cols-2 gap-6">
               <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 flex-shrink-0 rounded-lg bg-gradient-primary flex items-center justify-center text-xl text-white">
-                  <HiShieldCheck />
+                <div className="w-10 h-10 flex-shrink-0 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                  <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                    <HiShieldCheck className="w-5 h-5" />
+                  </div>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Safety First</h4>
@@ -57,8 +59,10 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 flex-shrink-0 rounded-lg bg-gradient-primary flex items-center justify-center text-xl text-white">
-                  <HiGlobe />
+                <div className="w-10 h-10 flex-shrink-0 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                  <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                    <HiGlobe className="w-5 h-5" />
+                  </div>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Local Discovery</h4>
@@ -66,8 +70,10 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 flex-shrink-0 rounded-lg bg-gradient-primary flex items-center justify-center text-xl text-white">
-                  <HiBookOpen />
+                <div className="w-10 h-10 flex-shrink-0 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                  <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                    <HiBookOpen className="w-5 h-5" />
+                  </div>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Education Hub</h4>
@@ -75,8 +81,10 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 flex-shrink-0 rounded-lg bg-gradient-primary flex items-center justify-center text-xl text-white">
-                  <HiUserGroup />
+                <div className="w-10 h-10 flex-shrink-0 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                  <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                    <HiUserGroup className="w-5 h-5" />
+                  </div>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Community</h4>
@@ -88,50 +96,58 @@ const About = () => {
 
           {/* Right Content - Visual Element */}
           <div className="relative animate-scale-in">
-            <div className="relative bg-gradient-to-br from-primary/10 to-secondary/10 rounded-3xl p-12 backdrop-blur-sm border border-border">
+            <div className="relative bg-gradient-to-br from-[#E89A38]/10 to-[#E89A38]/20 rounded-3xl p-12 backdrop-blur-sm border border-border">
               <div className="grid grid-cols-2 gap-6">
                 {/* Stat Cards */}
                 <div className="bg-white rounded-2xl p-6 shadow-soft text-center">
-                  <div className="text-4xl mb-2">
-                    <HiLockClosed className="inline-block" />
+                  <div className="w-16 h-16 mx-auto mb-2 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                    <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                      <HiLockClosed className="w-8 h-8" />
+                    </div>
                   </div>
-                  <div className="text-2xl font-bold text-primary">100%</div>
+                  <div className="text-2xl font-bold text-[#E89A38]">100%</div>
                   <div className="text-sm text-muted-foreground">Secure</div>
                 </div>
                 <div className="bg-white rounded-2xl p-6 shadow-soft text-center">
-                  <div className="text-4xl mb-2">
-                    <HiCheckCircle className="inline-block" />
+                  <div className="w-16 h-16 mx-auto mb-2 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                    <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                      <HiCheckCircle className="w-8 h-8" />
+                    </div>
                   </div>
-                  <div className="text-2xl font-bold text-secondary">Verified</div>
+                  <div className="text-2xl font-bold text-[#E89A38]">Verified</div>
                   <div className="text-sm text-muted-foreground">Businesses</div>
                 </div>
                 <div className="bg-white rounded-2xl p-6 shadow-soft text-center">
-                  <div className="text-4xl mb-2">
-                    <HiDeviceMobile className="inline-block" />
+                  <div className="w-16 h-16 mx-auto mb-2 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                    <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                      <HiDeviceMobile className="w-8 h-8" />
+                    </div>
                   </div>
-                  <div className="text-2xl font-bold text-accent">24/7</div>
+                  <div className="text-2xl font-bold text-[#E89A38]">24/7</div>
                   <div className="text-sm text-muted-foreground">Support</div>
                 </div>
                 <div className="bg-white rounded-2xl p-6 shadow-soft text-center">
-                  <div className="text-4xl mb-2">
-                    <HiStar className="inline-block" />
+                  <div className="w-16 h-16 mx-auto mb-2 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                    <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                      <HiStar className="w-8 h-8" />
+                    </div>
                   </div>
-                  <div className="text-2xl font-bold text-primary">4.9★</div>
+                  <div className="text-2xl font-bold text-[#E89A38]">4.9★</div>
                   <div className="text-sm text-muted-foreground">Rating</div>
                 </div>
               </div>
 
               {/* Center Badge */}
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-full p-8 shadow-glow">
-                <div className="text-6xl animate-float">
+                <div className="text-6xl animate-float text-[#E89A38]">
                   <HiUsers />
                 </div>
               </div>
             </div>
 
             {/* Decorative Elements */}
-            <div className="absolute -top-8 -right-8 w-32 h-32 bg-primary/10 rounded-full blur-3xl animate-float" />
-            <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-secondary/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
+            <div className="absolute -top-8 -right-8 w-32 h-32 bg-[#E89A38]/10 rounded-full blur-3xl animate-float" />
+            <div className="absolute -bottom-8 -left-8 w-40 h-40 bg-[#E89A38]/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
           </div>
         </div>
       </div>

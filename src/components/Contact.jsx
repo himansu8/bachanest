@@ -1,4 +1,4 @@
-/* Contact.jsx – Fixed: Social icons from react-icons/fa */
+/* Contact.jsx – Updated to orange accent styling */
 import { useState } from "react";
 import {
   HiMail,
@@ -40,7 +40,7 @@ const Contact = () => {
           {/* Left Content */}
           <div className="animate-fade-in">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              <span className="text-[#192F4A] font-poppins text-[50px]">
                 Get In Touch
               </span>
             </h2>
@@ -51,8 +51,10 @@ const Contact = () => {
             {/* Contact Info Cards */}
             <div className="space-y-4">
               <div className="flex items-start space-x-4 p-4 bg-muted/50 rounded-xl">
-                <div className="w-12 h-12 flex-shrink-0 rounded-lg bg-gradient-primary flex items-center justify-center text-2xl text-white">
-                  <HiMail />
+                <div className="w-12 h-12 flex-shrink-0 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                  <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                    <HiMail className="w-6 h-6" />
+                  </div>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Email Us</h4>
@@ -61,8 +63,10 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start space-x-4 p-4 bg-muted/50 rounded-xl">
-                <div className="w-12 h-12 flex-shrink-0 rounded-lg bg-gradient-primary flex items-center justify-center text-2xl text-white">
-                  <HiPhone />
+                <div className="w-12 h-12 flex-shrink-0 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                  <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                    <HiPhone className="w-6 h-6" />
+                  </div>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Call Us</h4>
@@ -71,8 +75,10 @@ const Contact = () => {
               </div>
 
               <div className="flex items-start space-x-4 p-4 bg-muted/50 rounded-xl">
-                <div className="w-12 h-12 flex-shrink-0 rounded-lg bg-gradient-primary flex items-center justify-center text-2xl text-white">
-                  <HiLocationMarker />
+                <div className="w-12 h-12 flex-shrink-0 rounded-lg bg-gradient-to-br from-[#E89A38]/10 via-[#E89A38]/20 to-[#E89A38]/10 p-1 flex items-center justify-center">
+                  <div className="w-full h-full rounded-lg bg-white flex items-center justify-center text-[#E89A38]">
+                    <HiLocationMarker className="w-6 h-6" />
+                  </div>
                 </div>
                 <div>
                   <h4 className="font-bold text-foreground mb-1">Visit Us</h4>
@@ -85,18 +91,18 @@ const Contact = () => {
 
             {/* Social Links */}
             <div className="mt-8">
-              <h4 className="font-bold text-foreground mb-4">Follow Us</h4>
+              <h4 className="font-bold text-xl font-inter text-foreground mb-4">Follow Us</h4>
               <div className="flex gap-4">
-                <button className="w-12 h-12 rounded-full bg-gradient-primary text-white flex items-center justify-center hover:shadow-glow transition-all duration-300 hover:scale-110">
+                <button className="w-12 h-12 rounded-full  text-white flex items-center justify-center hover:shadow-glow transition-all duration-300 hover:scale-110" style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}>
                   <FaFacebookF className="w-6 h-6" />
                 </button>
-                <button className="w-12 h-12 rounded-full bg-gradient-primary text-white flex items-center justify-center hover:shadow-glow transition-all duration-300 hover:scale-110">
+                <button className="w-12 h-12 rounded-full  text-white flex items-center justify-center hover:shadow-glow transition-all duration-300 hover:scale-110" style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}>
                   <FaTwitter className="w-6 h-6" />
                 </button>
-                <button className="w-12 h-12 rounded-full bg-gradient-primary text-white flex items-center justify-center hover:shadow-glow transition-all duration-300 hover:scale-110">
+                <button className="w-12 h-12 rounded-full  text-white flex items-center justify-center hover:shadow-glow transition-all duration-300 hover:scale-110" style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}>
                   <FaInstagram className="w-6 h-6" />
                 </button>
-                <button className="w-12 h-12 rounded-full bg-gradient-primary text-white flex items-center justify-center hover:shadow-glow transition-all duration-300 hover:scale-110">
+                <button className="w-12 h-12 rounded-full  text-white flex items-center justify-center hover:shadow-glow transition-all duration-300 hover:scale-110" style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}>
                   <FaLinkedin className="w-6 h-6" />
                 </button>
               </div>
@@ -119,7 +125,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:border-[#E89A38] focus:ring-2 focus:ring-[#E89A38]/20 outline-none transition-all"
                     placeholder="John Doe"
                   />
                 </div>
@@ -136,7 +142,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:border-[#E89A38] focus:ring-2 focus:ring-[#E89A38]/20 outline-none transition-all"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -153,7 +159,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-lg border border-input bg-background focus:border-[#E89A38] focus:ring-2 focus:ring-[#E89A38]/20 outline-none transition-all resize-none"
                     placeholder="Tell us how we can help..."
                   />
                 </div>
@@ -161,8 +167,8 @@ const Contact = () => {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full px-6 py-4 bg-gradient-primary text-white rounded-lg font-semibold hover:shadow-glow transition-all duration-300 hover:scale-105"
-                >
+                  className="w-full px-6 py-4  text-white rounded-lg font-semibold hover:shadow-glow transition-all duration-300 hover:scale-105"
+                style={{ background: 'linear-gradient(to right, #FAD058, #E89A38)' }}>
                   Send Message
                 </button>
               </div>
