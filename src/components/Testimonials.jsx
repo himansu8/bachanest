@@ -9,7 +9,7 @@ const Testimonials = () => {
       role: "Parent",
       avatar: <HiUsers className="w-6 h-6 text-[#E89A38]" />,
       rating: 5,
-      review: "FamilyGuard has transformed how I monitor my kids online activities. The parental controls are intuitive and give me peace of mind knowing my children are safe.",
+      review: "BachaNest has transformed how I monitor my kids online activities. The parental controls are intuitive and give me peace of mind knowing my children are safe.",
     },
     {
       name: "Mike Chen",
@@ -38,7 +38,7 @@ const Testimonials = () => {
             </span>
           </h2>
           <p className="mt-4 text-sm sm:text-xl text-muted-foreground max-w-4xl mx-auto">
-            Join thousands of satisfied families who trust FamilyGuard to keep their loved ones safe and connected.
+            Join thousands of satisfied families who trust BachaNest to keep their loved ones safe and connected.
           </p>
         </div>
 

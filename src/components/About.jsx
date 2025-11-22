@@ -20,27 +20,27 @@ const About = () => {
           <div className="animate-fade-in">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6">
               <span className="text-[#192F4A] font-poppins text-[50px]">
-                About FamilyGuard
+                About BachaNest
               </span>
             </h2>
             <div className="space-y-4 font-inter text-justify text-lg text-muted-foreground leading-relaxed">
               <p>
-                FamilyGuard is more than just an app—it's a comprehensive digital ecosystem designed to empower parents 
+                BachaNest is more than just an app—it's a comprehensive digital ecosystem designed to empower parents
                 and protect children in today's connected world.
               </p>
               <p>
-                We understand the challenges modern families face: from ensuring online safety to finding trusted local 
-                services, from educational resources to community engagement. That's why we've built an all-in-one platform 
+                We understand the challenges modern families face: from ensuring online safety to finding trusted local
+                services, from educational resources to community engagement. That's why we've built an all-in-one platform
                 that addresses every aspect of family life.
               </p>
               <p>
-                Our mission is to create a safe, supportive community where parents can confidently navigate the digital 
-                landscape while giving children the freedom to learn, explore, and grow. With robust parental controls, 
-                verified business listings, educational content, and secure communication tools, we're redefining what it 
+                Our mission is to create a safe, supportive community where parents can confidently navigate the digital
+                landscape while giving children the freedom to learn, explore, and grow. With robust parental controls,
+                verified business listings, educational content, and secure communication tools, we're redefining what it
                 means to be a connected family.
               </p>
               <p>
-                Built-in features like contests, donations, e-commerce, and kids' education make FamilyGuard the ultimate 
+                Built-in features like contests, donations, e-commerce, and kids' education make BachaNest the ultimate
                 hub for modern parenting—combining safety, discovery, learning, and community in one powerful platform.
               </p>
             </div>

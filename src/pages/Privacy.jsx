@@ -17,7 +17,7 @@ const Privacy = () => {
                 <span className="text-white font-bold text-xl">👪</span>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                FamilyGuard
+                BachaNest
               </span>
             </Link>
             <Link
@@ -44,7 +44,7 @@ const Privacy = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">1. Introduction</h2>
               <p className="text-muted-foreground">
-                FamilyGuard ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains 
+                BachaNest ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains
                 how we collect, use, disclose, and safeguard your information when you use our mobile application and services.
               </p>
             </section>
@@ -52,7 +52,7 @@ const Privacy = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">2. Information We Collect</h2>
               <p className="text-muted-foreground mb-4">We collect several types of information:</p>
-              
+
               <h3 className="text-xl font-semibold mb-2 mt-4">Personal Information</h3>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
                 <li>Name, email address, and phone number</li>
@@ -94,9 +94,9 @@ const Privacy = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">4. Children's Privacy</h2>
               <p className="text-muted-foreground">
-                We take children's privacy seriously. FamilyGuard includes features specifically designed for children under 13, 
-                but always under parental supervision and with parental consent. We do not knowingly collect personal information 
-                from children without verifiable parental consent. Parents have the right to review, delete, or refuse further 
+                We take children's privacy seriously. BachaNest includes features specifically designed for children under 13,
+                but always under parental supervision and with parental consent. We do not knowingly collect personal information
+                from children without verifiable parental consent. Parents have the right to review, delete, or refuse further
                 collection of their child's personal information.
               </p>
             </section>
@@ -118,8 +118,8 @@ const Privacy = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">6. Data Security</h2>
               <p className="text-muted-foreground">
-                We implement industry-standard security measures to protect your information, including encryption, 
-                secure servers, and regular security audits. However, no method of transmission over the internet is 100% secure, 
+                We implement industry-standard security measures to protect your information, including encryption,
+                secure servers, and regular security audits. However, no method of transmission over the internet is 100% secure,
                 and we cannot guarantee absolute security.
               </p>
             </section>
@@ -140,7 +140,7 @@ const Privacy = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">8. Parental Controls</h2>
               <p className="text-muted-foreground">
-                Parents have full control over their children's accounts and can monitor activity, set time limits, 
+                Parents have full control over their children's accounts and can monitor activity, set time limits,
                 restrict content, and manage privacy settings. Parents can also request deletion of their child's account and data at any time.
               </p>
             </section>
@@ -148,8 +148,8 @@ const Privacy = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">9. Data Retention</h2>
               <p className="text-muted-foreground">
-                We retain your information for as long as necessary to provide our services and fulfill the purposes outlined 
-                in this Privacy Policy. When you delete your account, we will delete or anonymize your personal information 
+                We retain your information for as long as necessary to provide our services and fulfill the purposes outlined
+                in this Privacy Policy. When you delete your account, we will delete or anonymize your personal information
                 within 30 days, except where we are required to retain it for legal purposes.
               </p>
             </section>
@@ -157,8 +157,8 @@ const Privacy = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">10. International Data Transfers</h2>
               <p className="text-muted-foreground">
-                Your information may be transferred to and maintained on servers located outside of your country. 
-                By using FamilyGuard, you consent to this transfer. We ensure appropriate safeguards are in place 
+                Your information may be transferred to and maintained on servers located outside of your country.
+                By using BachaNest, you consent to this transfer. We ensure appropriate safeguards are in place
                 to protect your information in accordance with this Privacy Policy.
               </p>
             </section>
@@ -166,8 +166,8 @@ const Privacy = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">11. Changes to This Policy</h2>
               <p className="text-muted-foreground">
-                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new 
-                Privacy Policy on this page and updating the "Last updated" date. Continued use of the app after changes 
+                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new
+                Privacy Policy on this page and updating the "Last updated" date. Continued use of the app after changes
                 constitutes acceptance of the updated policy.
               </p>
             </section>
@@ -177,7 +177,7 @@ const Privacy = () => {
               <p className="text-muted-foreground">
                 If you have any questions about this Privacy Policy or our data practices, please contact us at:
                 <br />
-                <strong className="text-foreground">Email:</strong> privacy@familyguard.com
+                <strong className="text-foreground">Email:</strong> privacy@BachaNest.com
                 <br />
                 <strong className="text-foreground">Phone:</strong> +1 (555) 123-4567
                 <br />

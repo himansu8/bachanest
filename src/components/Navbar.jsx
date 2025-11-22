@@ -16,11 +16,11 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-        
+
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="rounded-lg flex items-center justify-center">
-              <img src={bachanest} alt="FamilyGuard Logo" className="w-40" />
+              <img src={bachanest} alt="BachaNest Logo" className="w-40" />
             </div>
             {/* <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               Bachanest
@@ -31,33 +31,29 @@ const Navbar = () => {
           <div className="hidden md:flex font-poppins font-semibold text-lg items-center space-x-8">
             <Link
               to="/"
-              className={`transition-colors hover:text-[#E89A38] ${
-                isActive('home') ? 'text-[#E89A38]' : 'text-foreground'
-              }`}
+              className={`transition-colors hover:text-[#E89A38] ${isActive('home') ? 'text-[#E89A38]' : 'text-foreground'
+                }`}
             >
               Home
             </Link>
             <a
               href="#features"
-              className={`transition-colors hover:text-[#E89A38] ${
-                isActive('features') ? 'text-[#E89A38]' : 'text-foreground'
-              }`}
+              className={`transition-colors hover:text-[#E89A38] ${isActive('features') ? 'text-[#E89A38]' : 'text-foreground'
+                }`}
             >
               Features
             </a>
             <a
               href="#about"
-              className={`transition-colors hover:text-[#E89A38] ${
-                isActive('about') ? 'text-[#E89A38]' : 'text-foreground'
-              }`}
+              className={`transition-colors hover:text-[#E89A38] ${isActive('about') ? 'text-[#E89A38]' : 'text-foreground'
+                }`}
             >
               About
             </a>
             <a
               href="#contact"
-              className={`transition-colors hover:text-[#E89A38] ${
-                isActive('contact') ? 'text-[#E89A38]' : 'text-foreground'
-              }`}
+              className={`transition-colors hover:text-[#E89A38] ${isActive('contact') ? 'text-[#E89A38]' : 'text-foreground'
+                }`}
             >
               Contact
             </a>
@@ -101,36 +97,32 @@ const Navbar = () => {
           <div className="md:hidden py-4 space-y-3 animate-fade-in">
             <Link
               to="/"
-              className={`block px-4 py-2 rounded-lg transition-colors ${
-                isActive('home') ? 'bg-primary text-white' : 'hover:bg-muted'
-              }`}
+              className={`block px-4 py-2 rounded-lg transition-colors ${isActive('home') ? 'bg-primary text-white' : 'hover:bg-muted'
+                }`}
               onClick={() => setIsOpen(false)}
             >
               Home
             </Link>
             <a
               href="#features"
-              className={`block px-4 py-2 rounded-lg transition-colors ${
-                isActive('features') ? 'bg-primary text-white' : 'hover:bg-muted'
-              }`}
+              className={`block px-4 py-2 rounded-lg transition-colors ${isActive('features') ? 'bg-primary text-white' : 'hover:bg-muted'
+                }`}
               onClick={() => setIsOpen(false)}
             >
               Features
             </a>
             <a
               href="#about"
-              className={`block px-4 py-2 rounded-lg transition-colors ${
-                isActive('about') ? 'bg-primary text-white' : 'hover:bg-muted'
-              }`}
+              className={`block px-4 py-2 rounded-lg transition-colors ${isActive('about') ? 'bg-primary text-white' : 'hover:bg-muted'
+                }`}
               onClick={() => setIsOpen(false)}
             >
               About
             </a>
             <a
               href="#contact"
-              className={`block px-4 py-2 rounded-lg transition-colors ${
-                isActive('contact') ? 'bg-primary text-white' : 'hover:bg-muted'
-              }`}
+              className={`block px-4 py-2 rounded-lg transition-colors ${isActive('contact') ? 'bg-primary text-white' : 'hover:bg-muted'
+                }`}
               onClick={() => setIsOpen(false)}
             >
               Contact

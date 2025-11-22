@@ -54,7 +54,7 @@ const Footer = () => {
             >
               <img
                 src={bachanest}
-                alt="FamilyGuard Logo"
+                alt="BachaNest Logo"
                 className="w-64 drop-shadow-xl"
               />
             </motion.div>
@@ -128,7 +128,7 @@ const Footer = () => {
               Protect Your Family Today
             </h3>
             <p className="text-white/80 mb-8 leading-relaxed">
-              Join thousands of parents who trust FamilyGuard for peace of mind
+              Join thousands of parents who trust BachaNest for peace of mind
               in the digital age.
             </p>
 
@@ -161,7 +161,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <p className="text-white/70 text-sm">
               © {currentYear}{" "}
-              <span className="font-semibold text-white">FamilyGuard</span>.
+              <span className="font-semibold text-white">BachaNest</span>.
               All rights reserved.
             </p>
 

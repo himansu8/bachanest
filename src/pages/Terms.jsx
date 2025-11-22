@@ -17,7 +17,7 @@ const Terms = () => {
                 <span className="text-white font-bold text-xl">👪</span>
               </div>
               <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                FamilyGuard
+                BachaNest
               </span>
             </Link>
             <Link
@@ -44,7 +44,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">1. Acceptance of Terms</h2>
               <p className="text-muted-foreground">
-                By accessing and using FamilyGuard, you accept and agree to be bound by the terms and provision of this agreement. 
+                By accessing and using BachaNest, you accept and agree to be bound by the terms and provision of this agreement.
                 If you do not agree to these terms, please do not use our service.
               </p>
             </section>
@@ -52,12 +52,12 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">2. Use License</h2>
               <p className="text-muted-foreground mb-4">
-                Permission is granted to temporarily download one copy of FamilyGuard for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
+                Permission is granted to temporarily download one copy of BachaNest for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
               </p>
               <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
                 <li>Modify or copy the materials</li>
                 <li>Use the materials for any commercial purpose</li>
-                <li>Attempt to decompile or reverse engineer any software contained in FamilyGuard</li>
+                <li>Attempt to decompile or reverse engineer any software contained in BachaNest</li>
                 <li>Remove any copyright or other proprietary notations from the materials</li>
               </ul>
             </section>
@@ -65,7 +65,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">3. User Accounts</h2>
               <p className="text-muted-foreground">
-                When you create an account with us, you must provide accurate, complete, and current information. 
+                When you create an account with us, you must provide accurate, complete, and current information.
                 Failure to do so constitutes a breach of the Terms, which may result in immediate termination of your account.
               </p>
             </section>
@@ -73,7 +73,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">4. Parental Responsibility</h2>
               <p className="text-muted-foreground">
-                Parents and guardians are responsible for monitoring their children's use of FamilyGuard. 
+                Parents and guardians are responsible for monitoring their children's use of BachaNest.
                 While we provide parental control tools, ultimate responsibility for children's online safety rests with parents and guardians.
               </p>
             </section>
@@ -81,7 +81,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">5. Privacy & Data Protection</h2>
               <p className="text-muted-foreground">
-                Your use of FamilyGuard is also governed by our Privacy Policy. Please review our Privacy Policy, 
+                Your use of BachaNest is also governed by our Privacy Policy. Please review our Privacy Policy,
                 which also governs the site and informs users of our data collection practices.
               </p>
             </section>
@@ -101,7 +101,7 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">7. Content Guidelines</h2>
               <p className="text-muted-foreground">
-                Users are responsible for the content they post. We reserve the right to remove any content that violates 
+                Users are responsible for the content they post. We reserve the right to remove any content that violates
                 our community guidelines or these Terms of Service without prior notice.
               </p>
             </section>
@@ -109,15 +109,15 @@ const Terms = () => {
             <section>
               <h2 className="text-2xl font-bold mb-4">8. Limitation of Liability</h2>
               <p className="text-muted-foreground">
-                In no event shall FamilyGuard or its suppliers be liable for any damages (including, without limitation, 
-                damages for loss of data or profit) arising out of the use or inability to use FamilyGuard.
+                In no event shall BachaNest or its suppliers be liable for any damages (including, without limitation,
+                damages for loss of data or profit) arising out of the use or inability to use BachaNest.
               </p>
             </section>
 
             <section>
               <h2 className="text-2xl font-bold mb-4">9. Modifications</h2>
               <p className="text-muted-foreground">
-                FamilyGuard may revise these terms of service at any time without notice. By using this app, 
+                BachaNest may revise these terms of service at any time without notice. By using this app,
                 you are agreeing to be bound by the then current version of these terms of service.
               </p>
             </section>
@@ -127,7 +127,7 @@ const Terms = () => {
               <p className="text-muted-foreground">
                 If you have any questions about these Terms, please contact us at:
                 <br />
-                <strong className="text-foreground">Email:</strong> legal@familyguard.com
+                <strong className="text-foreground">Email:</strong> legal@BachaNest.com
                 <br />
                 <strong className="text-foreground">Phone:</strong> +1 (555) 123-4567
               </p>
